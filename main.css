@@ -1,0 +1,290 @@
+body, html, main {
+    /* important */
+    height: 100%;
+    margin: 0;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+header {
+    height: 100%;
+    background-image: url("./img/Empire-State-Building-Observatory-Tom-Perry-2618.jpg");
+    background-size: cover;
+    background-repeat: repeat-y;
+    color: #fff;
+    font-family: "OpenSans";
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: 50% 0;
+    position: relative;
+}
+
+.top-menu {
+    height: 100px;
+    text-transform: uppercase;
+    background-color: #e74c3c;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.logo-wrap {
+    padding: 20px;
+    width: 110px;
+    float: left;
+}
+
+.top-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+}
+
+.top-menu nav a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    padding: 0 20px;
+    line-height: 100px;
+}
+
+.top-menu li {
+    float: left;
+}
+
+.top-description {
+    clear: both;
+    text-align: center;
+    margin-top: 180px;
+}
+
+.top-description h1 {
+    text-transform: uppercase;
+    font-size: 64px;
+}
+
+.top-description p {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.button-top {
+    border: 1px solid #9b9b9b;
+    width: 210px;
+    height: 50px;
+    margin: 80px auto 0;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.051);
+}
+
+.button-top a {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    font-family: "OpenSans";
+}
+
+.col-item {
+    width: 490px;
+    float: left;
+    height: 160px;
+    padding: 100px 0;
+}
+
+.col-item:first-child {
+    margin-right: 20px;
+}
+
+.col-item h2 {
+    font-size: 22px;
+    line-height: 22px;
+    text-transform: uppercase;
+    height: 50px;
+}
+
+.col-item p {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0;
+}
+
+.col-item h2 span {
+    color: #e74c3c;
+}
+
+.col-item p a {
+    color: #e74c3c;
+    text-decoration: underline;
+}
+
+.middle-content {
+    background-image: url("./img/Empire-State-Building-Observatory-Tom-Perry-2618.jpg");
+    background-color: #e74c3c;
+    height: 300px;
+    color: #fff;
+    background-position-y: center;
+    background-size: cover;
+    background-blend-mode: soft-light;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.middle-content h2 {
+    font-size: 38px;
+    line-height: 22px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.middle-content .column {
+    width: 235px;
+    float: left;
+    font-size: 14px;
+    text-align: center;
+}
+
+.middle-content .column p {
+    margin: 0;
+    padding: 55px 0;
+}
+
+.middle-content .column:not(:last-child) {
+    margin-right: 20px;
+}
+
+.middle-content .column:nth-child(1) {
+    background-image: url("img/stripe-1.png");
+    background-repeat: no-repeat;
+    background-position: 90px 0;
+}
+
+.middle-content .column:nth-child(2) {
+    background-image: url("img/stripe-1.png");
+    background-repeat: no-repeat;
+    background-position: -150px 0;
+}
+
+.middle-content .column:nth-child(3) {
+    background-image: url("img/stripe-1.png");
+    background-repeat: no-repeat;
+    background-position: -415px 0;
+}
+
+.middle-content .column:nth-child(4) {
+    background-image: url("img/stripe-1.png");
+    background-repeat: no-repeat;
+    background-position: -660px 0;
+}
+
+.our-projects {
+    padding: 100px 0;
+}
+
+.our-projects h2 {
+    font-size: 22px;
+    line-height: 22px;
+    text-transform: uppercase;
+    float: left;
+}
+
+.our-projects h2 span {
+    color: #e74c3c;
+}
+
+.our-projects-header {
+    height: 50px;
+}
+
+.projects-nav {
+    font-size: 25px;
+    line-height: 25px;
+    float: right;
+    color: #a1a1a1;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.projects-nav a {
+    text-decoration: none;
+    color: #a1a1a1;
+    height: 25px;
+    width: 25px;
+}
+
+.active-nav {
+    color: #e74c3c;
+}
+
+.project-item {
+    width: 235px;
+    float: left;
+    font-size: 14px;
+    text-align: center;
+}
+
+.project-item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.project-img {
+    height: 130px;
+    width: 100%;
+}
+
+footer {
+    height: 235px;
+    background-color: #000;
+}
+
+footer .column {
+    width: 235px;
+    float: left;
+    font-size: 12px;
+    color: #8a8989;
+}
+
+footer .column:not(:last-child) {
+    margin-right: 20px;
+}
+
+footer h2 {
+    font-size: 18px;
+    line-height: 78px;
+    text-transform: uppercase;
+    height: 78px;
+}
+
+footer h2 span,
+footer a {
+    color: #e74c3c;
+}
+
+footer p {
+    margin: 0 0 20px;
+    line-height: 17px;
+}
+
+.footer-img {
+    width: 49px;
+    height: 49px;
+    clear: right;
+    float: left;
+    margin-right: 8px;
+}
